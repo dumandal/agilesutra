@@ -4,7 +4,7 @@ description: Exploring product thinking, Scrum mastery, and the deeper principle
   of agility.
 baseurl: /agilesutra
 url: https://dumandal.github.io
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 repository: dumandal/agilesutra
 plugins:
 - jekyll-feed
