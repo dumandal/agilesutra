@@ -42,3 +42,4 @@ nav:
     url: "/"
   - title: "About"
     url: /about/
+# Trigger rebuild
