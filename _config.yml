@@ -12,6 +12,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-archives
 - jekyll-paginate
+- jekyll-remote-theme
 author:
   name: Dumandal
   avatar: /assets/images/bio-photo.jpg
@@ -43,3 +44,5 @@ nav:
   - title: "About"
     url: /about/
 # Trigger rebuild
+jekyll-remote-theme:
+  enabled: true
