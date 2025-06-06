@@ -1,0 +1,38 @@
+title: AgileSutra
+email: you@example.com
+description: Exploring product thinking, Scrum mastery, and the deeper principles
+  of agility.
+baseurl: /agilesutra
+url: https://dumandal.github.io
+theme: minimal-mistakes-jekyll
+repository: dumandal/agilesutra
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-archives
+- jekyll-paginate
+author:
+  name: Dumandal
+  avatar: /assets/images/bio-photo.jpg
+  bio: Agile transformation leader, product thinker, and reflective practitioner.
+  location: India
+markdown: kramdown
+paginate: 5
+paginate_path: /page:num/
+timezone: Asia/Kolkata
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: false
+    share: true
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
