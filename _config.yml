@@ -36,3 +36,9 @@ defaults:
     type: pages
   values:
     layout: page
+# Site Navigation
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: /about/
